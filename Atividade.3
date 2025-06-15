@@ -23,9 +23,6 @@ programa {
   }
 }
 
-Algoritimo: Problema 02
-
-
     
 Algoritmo: Problema 02
 
@@ -47,7 +44,6 @@ programa {
      
      //Saida de dados
      escreva("a media é:",media)
-
   }
 }
 
@@ -73,8 +69,79 @@ programa {
 
    //Saida de dados
    escreva("o peso ideal de e:", peso_ideal)
-
-
   }
 }
 
+Algoritimo:Problema 04
+
+programa {
+  funcao inicio() {
+  
+    // Declaração de variaveis
+    real valor_x,valor_y,troca
+
+    // Entrada de dados
+    escreva("informe o valor de x:")
+    leia(valor_x)
+
+    escreva("informe o valor de y:")
+    leia(valor_y)
+
+    // Proçessamento
+    troca= valor_x
+    valor_x= valor_y
+    valor_y= troca
+
+    // Saida de dados
+    escreva("o valor de x e:",valor_y)
+    escreva(" o valor de y e:",troca)
+  }
+}
+
+
+Algoritimo:Problema 05
+
+programa {
+  funcao inicio() {
+    
+    // DeclaraÃ§Ã£o de variaveis
+    real raio,diametro,comprimento,aria
+
+    // Declaração  de costante 
+    const real Pi= 3.14
+
+    // Entrada de dados
+    escreva("informe o valor do raio:")
+    leia(raio)
+
+    // Proçessameto
+    diametro= 2*raio
+    comprimento= Pi*raio
+    aria= Pi *(raio*raio)
+
+    // Saida de dados
+    escreva("valor do diametro e:", diametro)
+    escreva(" valor do comprimento e:", comprimento)
+    escreva(" valor do raio e:", raio)
+  }
+}
+
+Algoritimo:Problema 06
+
+programa {
+  funcao inicio() {
+    // DecaraÃ§Ã£o de variaveis 
+    real temperatura_celsius, temperatura_fahrenheit
+
+    // Entrada de dados
+    escreva("informe o valor em celsius: ")
+    leia(temperatura_celsius)
+
+    // ProÃ§essameto
+    temperatura_fahrenheit= temperatura_celsius *(9.0/5.2) + 32.0
+
+    // Saida de dados
+    escreva("o valor da tempertura em graus celsius e:",temperatura_celsius )
+    
+  }
+}
